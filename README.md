@@ -57,27 +57,40 @@ This project implements three types of recommendation systems:
 - **Approach 3: Using Word2Vec** - Using this approach, it recommends similar anime titles to a given input anime title using Word2Vec vector representations and cosine similarity. It calculates the similarity scores between the input anime and all other anime, sorts them by similarity, and selects the top N similar anime titles.
 
 
-- **Approach - 4: Using Glove** - This code snippet demonstrates how to convert preprocessed anime synopses into fixed-length vector representations using pre-trained GloVe word embeddings. Each word in the synopsis is represented by its GloVe word vector, and these vectors are averaged to create a single vector representation for the entire synopsis. The resulting vectors provide a numerical representation of the semantic content of each synopsis, which can be used for various natural language processing tasks.
+- **Approach - 4: Using Glove** - This demonstrates how to convert preprocessed anime synopses into fixed-length vector representations using pre-trained GloVe word embeddings. Each word in the synopsis is represented by its GloVe word vector, and these vectors are averaged to create a single vector representation for the entire synopsis. The resulting vectors provide a numerical representation of the semantic content of each synopsis, which can be used for various natural language processing tasks.
 
 
 
 ## Technologies Used
 The following technologies and libraries are used in this project:
 
-- Python: The primary programming language for implementing the recommendation systems and data processing.
-- NumPy: A fundamental library for numerical computing in Python, providing support for large, multi-dimensional arrays and matrices.
-- Pandas: A powerful library for data manipulation and analysis, used for handling and preprocessing the dataset.
-- Scikit-learn: A comprehensive machine learning library for Python, providing various tools for data preprocessing and similarity calculations.
-- Gensim: A library for natural language processing, used for creating Word2Vec embeddings.
-- Matplotlib: A plotting library for creating visualizations to analyze and present the results.
-- NLTK: A Python library for NLP tasks like tokenization, stemming, lemmatization, parsing, and more, aiding text data processing.
+- **Python**: The primary programming language for implementing the recommendation systems and data processing.
+- **NumPy**: A fundamental library for numerical computing in Python, providing support for large, multi-dimensional arrays and matrices.
+- **Pandas**: A powerful library for data manipulation and analysis, used for handling and preprocessing the dataset.
+- **Scikit-learn**: A comprehensive machine learning library for Python, providing various tools for data preprocessing and similarity calculations.
+- **Gensim**: A library for natural language processing, used for creating Word2Vec embeddings.
+- **Matplotlib**: A plotting library for creating visualizations to analyze and present the results.
+- **NLTK**: A Python library for NLP tasks like tokenization, stemming, lemmatization, parsing, and more, aiding text data processing.
 
-  ## Contributions
+  ## Made by - 
 
-- Vishaka Nair -
-- Srushti
-- Shyam Saktawat
-- Ayush kumar Sahu
-- Abhishek Choudhary - 
+- Vishaka Nair [202318041]
+- Srushti Bhagchandani [202318047]
+- Shyam Saktawat [202311048]
+- Ayush kumar Sahu [202311066]
+- Abhishek Choudhary [202311067]
+
+  ## Insights 
+
+1. **Insights into User Preferences and Anime Popularity**
+- Our analysis reveals significant insights into the relationship between anime score ranks and popularity, as well as the distribution of genres across the dataset. These findings have practical implications for content creators and platforms, suggesting that certain genres may be oversaturated or underserved. Additionally, the positive correlation between score ranks and popularity underscores the importance of quality in driving user engagement and satisfaction.
+2. **Comparative Effectiveness of Recommendation Approaches**
+- Our project provides valuable insights into the effectiveness of different recommendation approaches. For instance, while genre-based recommendations may be effective for new users, models using Word2Vec and GloVe embeddings offer a more personalized experience by understanding the nuanced preferences of individual users. This comparative analysis not only highlights the strengths and weaknesses of each approach but also guides future developments in recommendation systems.
+3. **Implications for Future Work**
+- The insights and methodologies developed in our project have broad implications for the future of recommendation systems. The novel use of Word2Vec and GloVe embeddings, in particular, suggests a promising direction for further research, potentially extending to other domains beyond anime. Additionally, the focus on diversity within recommendation lists opens up new avenues for improving user satisfaction and engagement across recommendation platforms.
+
+## Conclusion
+In conclusion, our project makes significant contributions to the field of recommendation systems through its innovative use of NLP techniques, comprehensive approach to system development, and insightful analysis of user data. By pushing the boundaries of how we understand and implement recommendations, our work not only enhances the user experience for anime viewers but also offers a blueprint for future advancements in personalized content discovery
+  
   
 
